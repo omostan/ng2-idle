@@ -18,5 +18,9 @@
       "@ng-idle/keepalive": ["dist/keepalive"],
       "@ng-idle/keepalive/*": ["dist/keepalive/*"]
     }
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true,
+    "allowEmptyCodegenFiles": true
   }
 }
